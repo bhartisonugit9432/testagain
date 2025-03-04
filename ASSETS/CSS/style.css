@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Mulish', sans-serif; */
+}
+
+:root {
+    --blue: #2E3494;
+    --red: #D61F26;
+    --white: #fff;
+    --black: #202020;
+    --blue1: #2e3493;
+}
+
+.navbar {
+    background-color: var(--white) !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar .navbar-brand img {
+    height: 100px;
+    width: 100%;
+}
+
+.navbar .navbar-brand {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.navbar .navbar-nav li a {
+    font-size: 16px;
+    font-weight: 500;
+    /* color: var(--blue) !important; */
+}
+
+.container-fluid .service-logo .img-logo {
+    margin: 27px -2px 29px 41px;
+}
+
+.container-fluid .service-logo .text-table-heading h2 {
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.container-fluid .service-logo .text-table-heading h4 {
+    margin-top: 13px;
+    align-items: center;
+    text-align: center;
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 35px;
+}
